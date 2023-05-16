@@ -4,4 +4,4 @@ Karan Projects in Golang
 
 ## Here are the categories that are solved :
 
-# Numbers
+### Numbers

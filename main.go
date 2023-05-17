@@ -6,4 +6,5 @@ func main() {
 	// numbers.FindE()
 	// numbers.Fibonacci()
 	// numbers.PrimeFactors()
+	// numbers.NextPrime()
 }

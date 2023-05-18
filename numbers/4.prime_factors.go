@@ -10,8 +10,8 @@ import (
 func PrimeFactors() {
 
 	var number int
-	fmt.Println("Enter a number to get prime factors : ")
-	fmt.Scan(&number)
+	fmt.Print("Enter a number to get prime factors : ")
+	fmt.Scanln(&number)
 
 	var divisionNumbers []int
 	for i := 1; i <= number; i++ {

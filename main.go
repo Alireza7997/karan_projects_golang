@@ -9,5 +9,6 @@ func main() {
 	// numbers.Fibonacci()
 	// numbers.PrimeFactors()
 	// numbers.NextPrime()
-	numbers.CostOfTile()
+	// numbers.CostOfTile()
+	numbers.MortgageCalculator()
 }

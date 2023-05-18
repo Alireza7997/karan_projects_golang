@@ -16,8 +16,8 @@ var (
 func NextPrime() {
 	var answer string
 
-	fmt.Println("Generate prime number? (y/n): ")
-	fmt.Scan(&answer)
+	fmt.Print("Generate prime number? (y/n): ")
+	fmt.Scanln(&answer)
 	answer = strings.ToLower(answer)
 
 	if answer == "y" {

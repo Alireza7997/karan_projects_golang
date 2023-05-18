@@ -10,14 +10,14 @@ func CostOfTile() {
 		width, height, tileCost float32
 	)
 
-	fmt.Println("Enter the cost of tile : ")
-	fmt.Scan(&tileCost)
+	fmt.Print("Enter the cost of tile($): ")
+	fmt.Scanln(&tileCost)
 
-	fmt.Println("Enter width : ")
-	fmt.Scan(&width)
+	fmt.Print("Enter width : ")
+	fmt.Scanln(&width)
 
-	fmt.Println("Enter height : ")
-	fmt.Scan(&height)
+	fmt.Print("Enter height : ")
+	fmt.Scanln(&height)
 
 	tiles := width * height
 	cost := tileCost * tiles

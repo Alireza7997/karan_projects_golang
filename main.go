@@ -10,5 +10,6 @@ func main() {
 	// numbers.PrimeFactors()
 	// numbers.NextPrime()
 	// numbers.CostOfTile()
-	numbers.MortgageCalculator()
+	// numbers.MortgageCalculator()
+	numbers.ChangeReturn()
 }

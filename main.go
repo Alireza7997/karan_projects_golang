@@ -1,6 +1,8 @@
 package main
 
-import "github.com/Alireza7997/karan-projects/numbers"
+import (
+	"github.com/Alireza7997/karan-projects/numbers"
+)
 
 // You can test each solution here
 func main() {
@@ -11,5 +13,6 @@ func main() {
 	// numbers.NextPrime()
 	// numbers.CostOfTile()
 	// numbers.MortgageCalculator()
-	numbers.ChangeReturn()
+	// numbers.ChangeReturn()
+	numbers.BinaryDecimalConverter()
 }

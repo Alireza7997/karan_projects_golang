@@ -14,5 +14,6 @@ func main() {
 	// numbers.CostOfTile()
 	// numbers.MortgageCalculator()
 	// numbers.ChangeReturn()
-	numbers.BinaryDecimalConverter()
+	// numbers.BinaryDecimalConverter()
+	numbers.Calculator()
 }

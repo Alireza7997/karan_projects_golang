@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/Alireza7997/karan-projects/numbers"
-)
+import "github.com/Alireza7997/karan-projects/numbers"
 
 // You can test each solution here
 func main() {
@@ -16,5 +14,6 @@ func main() {
 	// numbers.ChangeReturn()
 	// numbers.BinaryDecimalConverter()
 	// numbers.Calculator()
-	numbers.UnitConverter()
+	// numbers.UnitConverter()
+	numbers.AlarmClock()
 }

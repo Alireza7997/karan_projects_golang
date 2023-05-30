@@ -17,6 +17,7 @@ func main() {
 	// numbers.UnitConverter()
 	// numbers.AlarmClock()
 	// numbers.DistanceBetweenCities()
-	numbers.CreditCardValidator()
+	// numbers.CreditCardValidator()
+	numbers.TaxCalculator()
 
 }

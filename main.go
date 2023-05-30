@@ -1,10 +1,6 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/Alireza7997/karan-projects/numbers"
-)
+import "github.com/Alireza7997/karan-projects/numbers"
 
 // You can test each solution here
 func main() {
@@ -21,6 +17,6 @@ func main() {
 	// numbers.UnitConverter()
 	// numbers.AlarmClock()
 	// numbers.DistanceBetweenCities()
-	fmt.Println(numbers.DistanceCalculator(48.8566, 2.3522, 52.5200, 13.4050))
+	numbers.CreditCardValidator()
 
 }

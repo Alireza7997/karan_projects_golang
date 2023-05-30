@@ -18,6 +18,7 @@ func main() {
 	// numbers.AlarmClock()
 	// numbers.DistanceBetweenCities()
 	// numbers.CreditCardValidator()
-	numbers.TaxCalculator()
+	// numbers.TaxCalculator()
+	numbers.FactorialFinder()
 
 }

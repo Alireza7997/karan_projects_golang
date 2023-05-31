@@ -19,6 +19,7 @@ func main() {
 	// numbers.DistanceBetweenCities()
 	// numbers.CreditCardValidator()
 	// numbers.TaxCalculator()
-	numbers.FactorialFinder()
+	// numbers.FactorialFinder()
+	numbers.ComplexAlgera()
 
 }

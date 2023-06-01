@@ -20,6 +20,7 @@ func main() {
 	// numbers.CreditCardValidator()
 	// numbers.TaxCalculator()
 	// numbers.FactorialFinder()
-	numbers.ComplexAlgera()
+	// numbers.ComplexAlgera()
+	numbers.HappyNumbers()
 
 }

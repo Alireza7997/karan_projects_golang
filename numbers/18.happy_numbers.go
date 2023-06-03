@@ -12,10 +12,11 @@ import (
 // Display an example of your output here. Find first 8 happy numbers.
 func HappyNumbers() {
 	var (
-		baseNumber    int
-		number        int
-		isHappyNumber bool = false
-		repetition    uint8
+		baseNumber      int
+		number          int
+		isHappyNumber   bool = false
+		repetition      uint8
+		repetitionLimit uint8 = 30
 	)
 
 	fmt.Print("Enter a number: ")
@@ -23,7 +24,7 @@ func HappyNumbers() {
 	number = baseNumber
 
 	for {
-		if repetition > 30 {
+		if repetition > repetitionLimit {
 			break
 		}
 		if number == 1 {

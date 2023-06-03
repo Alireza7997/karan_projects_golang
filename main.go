@@ -21,6 +21,7 @@ func main() {
 	// numbers.TaxCalculator()
 	// numbers.FactorialFinder()
 	// numbers.ComplexAlgera()
-	numbers.HappyNumbers()
+	// numbers.HappyNumbers()
+	numbers.NumberNames()
 
 }

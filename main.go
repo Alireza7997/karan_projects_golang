@@ -22,6 +22,7 @@ func main() {
 	// numbers.FactorialFinder()
 	// numbers.ComplexAlgera()
 	// numbers.HappyNumbers()
-	numbers.NumberNames()
+	// numbers.NumberNames()
+	numbers.CoinFlip()
 
 }

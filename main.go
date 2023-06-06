@@ -23,6 +23,7 @@ func main() {
 	// numbers.ComplexAlgera()
 	// numbers.HappyNumbers()
 	// numbers.NumberNames()
-	numbers.CoinFlip()
+	// numbers.CoinFlip()
+	numbers.FastExponentiation()
 
 }

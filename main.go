@@ -1,5 +1,7 @@
 package main
 
+import classicalgorithms "github.com/Alireza7997/karan-projects/classic_algorithms"
+
 // You can test each solution here
 func main() {
 	// numbers.FindPi()
@@ -24,5 +26,6 @@ func main() {
 	// numbers.CoinFlip()
 	// numbers.LimitCalculator()
 	// numbers.FastExponentiation()
+	classicalgorithms.CollatzConjecture()
 
 }

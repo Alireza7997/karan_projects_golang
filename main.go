@@ -1,7 +1,5 @@
 package main
 
-import "github.com/Alireza7997/karan-projects/numbers"
-
 // You can test each solution here
 func main() {
 	// numbers.FindPi()
@@ -24,6 +22,7 @@ func main() {
 	// numbers.HappyNumbers()
 	// numbers.NumberNames()
 	// numbers.CoinFlip()
-	numbers.FastExponentiation()
+	// numbers.LimitCalculator()
+	// numbers.FastExponentiation()
 
 }

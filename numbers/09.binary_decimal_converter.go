@@ -22,6 +22,7 @@ func BinaryDecimalConverter() {
 	if convertType != "b" && convertType != "d" {
 		fmt.Println("Please enter a valid number type(b/d).")
 		BinaryDecimalConverter()
+		return
 	}
 	if convertType == "b" {
 		chosenType = "Binary"

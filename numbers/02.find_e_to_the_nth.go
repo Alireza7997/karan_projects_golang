@@ -19,12 +19,13 @@ func FindE() {
 		fmt.Printf("'n' must be from 1 to %d", limit)
 		fmt.Println()
 		FindE()
-	} else {
-		for _, digit := range e[:nthDigit+1] {
-			eToNthDigit = eToNthDigit + string(digit)
-		}
-
-		fmt.Println(eToNthDigit)
+		return
 	}
+
+	for _, digit := range e[:nthDigit+1] {
+		eToNthDigit = eToNthDigit + string(digit)
+	}
+
+	fmt.Println(eToNthDigit)
 
 }

@@ -21,12 +21,13 @@ func FindPi() {
 		fmt.Printf("'n' must be from 1 to %d", limit)
 		fmt.Println()
 		FindPi()
-	} else {
-		for _, digit := range pi[:nthDigit+1] {
-			piToNthDigit = piToNthDigit + string(digit)
-		}
-
-		fmt.Println(piToNthDigit)
+		return
 	}
+
+	for _, digit := range pi[:nthDigit+1] {
+		piToNthDigit = piToNthDigit + string(digit)
+	}
+
+	fmt.Println(piToNthDigit)
 
 }

@@ -29,6 +29,7 @@ func MortgageCalculator() {
 		fmt.Printf("The maximum amount you can borrow is : %d", maxAmount)
 		fmt.Println()
 		MortgageCalculator()
+		return
 	}
 
 	fmt.Print("How many years do you want to take to pay back the mortgage(max 30)? ")

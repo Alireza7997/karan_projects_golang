@@ -43,12 +43,6 @@ func spellNumber(n int) string {
 	}
 }
 
-func main() {
-	for i := 1; i <= 1000000; i++ {
-		fmt.Println(spellNumber(i))
-	}
-}
-
 var numNames = map[int]string{
 	0:  "zero",
 	1:  "one",

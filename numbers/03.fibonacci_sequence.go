@@ -19,27 +19,29 @@ func Fibonacci() {
 		fmt.Printf("the number must be between 0 and %d", limit)
 		fmt.Println()
 		Fibonacci()
-	} else {
-		sequence[0] = 0
-		if n == 0 {
-			fmt.Println(sequence)
-		}
-		sequence[1] = 1
-		if n == 1 {
-			fmt.Println(sequence)
+		return
+	}
 
-		}
-		for {
-			sequence[i] = sequence[i-2] + sequence[i-1]
+	sequence[0] = 0
+	if n == 0 {
+		fmt.Println(sequence)
+	}
+	sequence[1] = 1
+	if n == 1 {
+		fmt.Println(sequence)
 
-			if sequence[i] == n {
-				fmt.Println(sequence)
-				break
-			} else if sequence[i] > n {
-				fmt.Println(sequence[:i])
-				break
-			}
-			i++
+	}
+
+	for {
+		sequence[i] = sequence[i-2] + sequence[i-1]
+
+		if sequence[i] == n {
+			fmt.Println(sequence)
+			break
+		} else if sequence[i] > n {
+			fmt.Println(sequence[:i])
+			break
 		}
+		i++
 	}
 }

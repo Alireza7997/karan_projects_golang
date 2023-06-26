@@ -1,9 +1,10 @@
 package main
 
-import classicalgorithms "github.com/Alireza7997/karan-projects/classic_algorithms"
+import "github.com/Alireza7997/karan-projects/classic_algorithms"
 
 // You can test each solution here
 func main() {
+	//* Numbers
 	// numbers.FindPi()
 	// numbers.FindE()
 	// numbers.Fibonacci()
@@ -26,6 +27,9 @@ func main() {
 	// numbers.CoinFlip()
 	// numbers.LimitCalculator()
 	// numbers.FastExponentiation()
-	classicalgorithms.CollatzConjecture()
+
+	//* Classic Algorithms
+	// classic_algorithms.CollatzConjecture()
+	classic_algorithms.Sorting()
 
 }

@@ -1,4 +1,4 @@
-package classicalgorithms
+package classic_algorithms
 
 import "fmt"
 

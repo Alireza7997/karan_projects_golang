@@ -23,11 +23,13 @@ func Sorting() {
 	case "bubble", "b":
 		array = getArray()
 		sortedArray = bubbleSort(array)
-		fmt.Printf("Sorted array: %v", sortedArray)
+		fmt.Printf("Original array: %v\n", array)
+		fmt.Printf("Sorted array: %v\n", sortedArray)
 
 	case "merge", "m":
 		array = getArray()
 		sortedArray = mergeSort(array)
+		fmt.Printf("Original array: %v\n", array)
 		fmt.Printf("Sorted array: %v\n", sortedArray)
 
 	default:

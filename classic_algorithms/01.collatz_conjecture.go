@@ -27,12 +27,10 @@ func CollatzConjecture() {
 		if number%2 == 0 {
 			number /= 2
 			steps++
-			// fmt.Printf("step %d: %d\n", steps, number)
+
 		} else if number%2 != 0 {
 			number = number*3 + 1
 			steps++
-			// fmt.Printf("step %d: %d\n", steps, number)
-		} else if number%2 != 0 {
 		}
 	}
 

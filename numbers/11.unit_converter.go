@@ -286,7 +286,7 @@ func massConversion(main, target string, amount float64) (converted float64) {
 		case "kilograms", "k":
 			converted = amount * 0.001
 		case "pounds", "p":
-			converted = amount * 2204.62
+			converted = amount * 0.00220462
 		case "grams", "g":
 			converted = amount
 		default:

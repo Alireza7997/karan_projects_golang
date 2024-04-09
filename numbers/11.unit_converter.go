@@ -57,7 +57,7 @@ func UnitConverter() {
 		fmt.Print("\033[32mAmount:\033[0m ")
 		fmt.Scanln(&amount)
 
-		converted := currecyConversion(mainScale, targetScale, amount)
+		converted := currencyConversion(mainScale, targetScale, amount)
 		fmt.Println("\033[1;32mConverted:\033[0m ", converted)
 
 	case "volume", "v":
@@ -143,7 +143,7 @@ func temperatureConvertion(main, target string, amount float64) (converted float
 	return
 }
 
-func currecyConversion(main, target string, amount float64) (converted float64) {
+func currencyConversion(main, target string, amount float64) (converted float64) {
 	switch main {
 	case "dollars", "d":
 		switch target {

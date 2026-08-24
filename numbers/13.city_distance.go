@@ -43,6 +43,10 @@ func DistanceBetweenCities() {
 	}
 
 	location2, err := geocoder.Geocoding(city2Address)
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
 
 	distance = DistanceCalculator(location1.Latitude, location1.Longitude, location2.Latitude, location2.Longitude)
 

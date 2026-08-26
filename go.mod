@@ -1,4 +1,4 @@
-module github.com/Alireza7997/karan-projects
+module github.com/Alireza7997/go_karan_projects
 
 go 1.20
 

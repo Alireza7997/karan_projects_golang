@@ -52,8 +52,8 @@ go run ./classic_algorithms/01.collatz_conjecture.go
 ## Getting Started
 
 ```bash
-git clone https://github.com/Alireza7997/karan-projects.git
-cd karan-projects
+git clone https://github.com/Alireza7997/go_karan_projects.git
+cd go_karan_projects
 go mod download
 go run <path-to-any-solution>.go
 ```

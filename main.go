@@ -1,6 +1,6 @@
 package main
 
-import "github.com/Alireza7997/karan-projects/numbers"
+import "github.com/Alireza7997/go_karan_projects/numbers"
 
 // You can test each solution here
 func main() {
